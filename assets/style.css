@@ -3,6 +3,8 @@
   --green: #36827F;
   --accent: #cbd4c2;
   --grey: rgb(63, 62, 71);
+    background-image:url(./images/background.jpg);
+    
 }
 
 /* General Styles Rules */
@@ -14,8 +16,8 @@
 
 
 body {
-  background-color: white;
   font-family: sans-serif;
+  color: white;
 }
 
 /* Header Formatting */

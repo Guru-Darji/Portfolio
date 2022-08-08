@@ -258,6 +258,13 @@ p {
     margin-top: 0px;
   }
 
+  #about-me-paragraph{
+    margin: 50px;
+  }
+
+  /* Goals are: the whole pages shares the same p tag, make it so that each section has it own p tag id to style it, what currently needs to be done is to align the about me p tags to the middle.
+  Good Luck future me. */
+
   .work-content {
   flex-direction: column;
   border-left: none;

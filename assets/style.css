@@ -3,7 +3,9 @@
   --green: #36827F;
   --accent: #cbd4c2;
   --grey: rgb(63, 62, 71);
-    background-image:url(./images/lightscape-LtnPejWDSAY-unsplash.jpg);
+    background-size:cover;
+    background-image:url(./images/beautiful-skyscape-during-daytime\ \(1\).jpg);
+    background-repeat: no-repeat;
 }
 
 /* General Styles Rules */
@@ -134,8 +136,9 @@ p {
   border: 7px solid var(--green);
   margin: 12px;
   height: 50%;
-  min-width: 90%;
+  width: 100%;
   display: flex;
+  flex-direction: column;
   overflow: hidden;
 }
 
@@ -143,6 +146,8 @@ p {
   width: 100%;
   height: 100%;
   opacity: 0.8;
+  object-fit:fill;
+
 }
 
 .feature-project img:hover {
@@ -176,7 +181,7 @@ p {
 
 .secondary-project {
   flex: 1 1;
-  height: 30%;
+  min-height: 30%;
   min-width: 45%;
   margin: 12px;
   border: 7px solid var(--green);
@@ -188,6 +193,7 @@ p {
   width: 100%;
   height: 100%;
   opacity: 0.8;
+  object-fit: cover;
 }
 
 .secondary-project img:hover {
@@ -211,7 +217,7 @@ p {
 .contact-link:hover {
   background-color: var(--blue);
   color: white;
-}--
+}
 
 /* Screen Resizing Formatting */
 @media screen and (max-width: 1124px) {

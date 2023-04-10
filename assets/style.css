@@ -128,7 +128,7 @@ p {
 .about-me-paragraph{
   margin-top: 20%;
   font-size: x-large;
-  text-align: center;
+  text-align:left;
 }
 
 /* Work Section */
